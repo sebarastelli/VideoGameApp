@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin:0;
+}
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(30deg, #d2a060 0, #d7995e 6.25%, #da905d 12.5%, #dd875c 18.75%, #de7c5c 25%, #de705c 31.25%, #dc625d 37.5%, #d9535f 43.75%, #d44262 50%, #cd2f66 56.25%, #c51b6c 62.5%, #bc0074 68.75%, #b1007d 75%, #a30087 81.25%, #930092 87.5%, #81129d 93.75%, #6921a7 100%);
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif
+}
+
+
+  

@@ -1,0 +1,65 @@
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.formulario{
+    margin-top: 100px;
+    width: 600px;
+    display: flex;
+     gap: 1em;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+     box-shadow: 0 0 10px rgba(148, 3, 141, 0.836);
+     border: 1px solid black;
+     background-color: rgba(0, 0, 0, 0.808);
+     color: #fff;
+    text-decoration: none;
+}
+
+.check{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(10, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 11px;
+    justify-items: center;
+}
+
+.boton{
+    background-color: rgba(27, 27, 27, 0.562);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1rem;
+    width: auto;
+    border: none;
+    transition: .2s;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.boton:hover{
+    background-color: #c51b6c;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 10px #c51b6c;
+}
+
+.checklabel{
+    text-decoration: none;
+}
+
+label{
+    text-decoration-line: underline;
+    text-decoration-color: #eb4896;
+}
+
+

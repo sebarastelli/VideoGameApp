@@ -1,0 +1,30 @@
+.cuerpo{
+    background-color: rgb(58, 58, 97);
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.boton{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    z-index: 9999;
+    width: 80px;
+    text-align: center;
+    height: 40px;
+    padding: 8px;
+    border-radius: 40px;
+    border: 1px solid #ff9100;
+    box-shadow: 0 0 10px #ff3c00;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.boton:hover {
+    background-color: bisque;
+    transform: scale(1.5,1.5);
+
+}

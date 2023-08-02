@@ -1,0 +1,79 @@
+    /*.cuerpo{
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        grid-gap: 5rem;
+        margin-left: 160px;
+        margin-top: 60px;
+        margin-right: 100px;
+    }
+*/
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, max-content));
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-gap: 5rem;
+    margin-left: 160px;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+.botones{
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton{
+    background-color: rgba(27, 27, 27, 0.562);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1rem;
+    width: auto;
+    border: none;
+    transition: .2s;
+}
+
+.boton:hover{
+    background-color: #c51b6c;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 10px #c51b6c;
+}
+
+.fondo{
+    background-image: linear-gradient(30deg, #d2a060 0, #d7995e 6.25%, #da905d 12.5%, #dd875c 18.75%, #de7c5c 25%, #de705c 31.25%, #dc625d 37.5%, #d9535f 43.75%, #d44262 50%, #cd2f66 56.25%, #c51b6c 62.5%, #bc0074 68.75%, #b1007d 75%, #a30087 81.25%, #930092 87.5%, #81129d 93.75%, #6921a7 100%);
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.gifcarga{
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifcarga img{
+    width: 200px;
+    height: 200px;
+}
+
+.gifcarga h1{
+    color: #fff;
+    text-shadow: rgb(247, 0, 255) 1px 0 10px;
+}

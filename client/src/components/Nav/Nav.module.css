@@ -1,0 +1,41 @@
+.nav{
+    position: fixed;
+    z-index:1000;
+    width: 100vw;
+    height: 80px;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(30deg, #d2a060 0, #d7995e 6.25%, #da905d 12.5%, #dd875c 18.75%, #de7c5c 25%, #de705c 31.25%, #dc625d 37.5%, #d9535f 43.75%, #d44262 50%, #cd2f66 56.25%, #c51b6c 62.5%, #bc0074 68.75%, #b1007d 75%, #a30087 81.25%, #930092 87.5%, #81129d 93.75%, #6921a7 100%);
+    box-shadow: 0 0 10px rgba(0,0,0,.95);
+}
+
+.botoncasa{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(148, 3, 141, 0.836);
+    transition: .5s;
+}
+
+.icon{
+    width: max-content;
+    height: max-content;
+    color: black;
+}
+
+.botoncasa:hover {
+    background-color: #ff007b;
+    transform: scale(1.2,1.2);
+    box-shadow: 0 0 10px #f8bcd9;
+}
+
+.nav h1{
+    text-shadow: rgb(247, 95, 247) 5px 0 20px;
+}
