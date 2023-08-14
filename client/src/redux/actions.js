@@ -13,7 +13,7 @@ export const CLEAN = "CLEAN"
 export const getGames = () => {
   return async (dispatch) => {
     try {
-      const URL = "http://localhost:3001/videogames";
+      const URL = "https://vg-server.onrender.com/videogames";
       const { data } = await axios.get(URL);
       dispatch({ type: "GET_GAMES", payload: data });
     } catch (error) {
@@ -25,7 +25,7 @@ export const getGames = () => {
 export const getGameDetail = (id) => {
   return async (dispatch) => {
     try {
-      const URL = "http://localhost:3001/videogames";
+      const URL = "https://vg-server.onrender.com/videogames";
       const { data } = await axios.get(`${URL}/${id}`);
       dispatch({ type: `GET_GAME_DETAIL`, payload: data });
     } catch (error) {
@@ -37,7 +37,7 @@ export const getGameDetail = (id) => {
 export const getGenres = () => {
   return async (dispatch) => {
     try {
-      const URL = "http://localhost:3001/genres";
+      const URL = "https://vg-server.onrender.com/genres";
       const { data } = await axios.get(URL);
       dispatch({ type: "GET_GENRES", payload: data });
     } catch (error) {
@@ -49,7 +49,7 @@ export const getGenres = () => {
 export const getGameByName = (name) => {
   return async (dispatch) => {
     try {
-      const URL = "http://localhost:3001/videogames";
+      const URL = "https://vg-server.onrender.com/videogames";
       const { data } = await axios.get(`${URL}?name=${name}`);
       dispatch({ type: "GET_GAMENAME", payload: data });
     } catch (error) {
@@ -70,7 +70,7 @@ export const postGame = (
 ) => {
   return async (dispatch) => {
     try {
-      const URL = "http://localhost:3001/videogames";
+      const URL = "https://vg-server.onrender.com/videogames";
       const gameData = {
         name,
         description,
